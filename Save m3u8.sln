@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Save m3u8", "Save m3u8\Save m3u8.csproj", "{3BB0FB43-500E-4974-AA5D-5979A94C9D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BB0FB43-500E-4974-AA5D-5979A94C9D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB0FB43-500E-4974-AA5D-5979A94C9D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB0FB43-500E-4974-AA5D-5979A94C9D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB0FB43-500E-4974-AA5D-5979A94C9D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1CEBFD9-21B5-4663-BC32-8BAF5FD634A8}
+	EndGlobalSection
+EndGlobal

@@ -13,23 +13,18 @@ namespace Save_m3u8
             if (link == "66")
             {
                 Console.WriteLine("It will be done my lord, just enter the name");
-                var name = Console.ReadLine();
+                string name = Console.ReadLine();
                 Console.WriteLine("Enter the URL of the m3u8");
-                var url = Console.ReadLine();
-                Command(name, url);
+                string url = Console.ReadLine();
+                Process.Start("powershell.exe", $"ffmpeg -m3u8_hold_counters 3 -i \"{url}\" -codec copy \"{name}.mp4\"");
             }
             else
             {
-                var name = link;
+                string name = link;
                 Console.WriteLine("Enter the name you wanna save it with");
-                var url = Console.ReadLine();
-                Command(name, url);
+                string url = Console.ReadLine();
+                Process.Start("powershell.exe", $"ffmpeg -m3u8_hold_counters 3 -i \"{url}\" -codec copy \"{name}.mp4\"");
             }
-        }
-
-        private static Process Command(string name, string url)
-        {
-            return Process.Start("powershell.exe", "ffmpeg -m3u8_hold_counters 3 -i " + url + " -codec copy " + name + ".mp4");
         }
     }
 }
